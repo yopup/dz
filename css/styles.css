@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+
+
+body {
+	font: 12px Tahoma, sans-serif;
+	background-color: #ffffff;
+	margin: 0;
+}
+
+.line_green hr{
+    color: #04e4a2;
+    background-color: #04e4a2;
+    height: 15px; 
+    border: none;
+    
+}
+
+.line_red {
+	background-color: #e94643;
+	height: 60px;
+}
+
+.line_red p{
+	color: white;
+	margin-left: 170px;
+	margin-top: 20px;
+	float: left;
+}
+
+.line_red a{
+	margin-right: 30px;
+	margin-top: 20px;
+	float: right;
+	text-decoration: none;
+}
+
+.line_red a:hover{
+	text-decoration:underline; 
+	color: #fdd835;
+}
+
+.line_red span {
+	color: #ffffff;
+}
+
+.inline_block{
+	background-color: #ef5350; 
+	
+}
+
+.img_block{
+	width: 50%;
+	display: inline-block;
+	background-color: #ef5350; 
+	
+}
+.line{
+	margin-top: -70%;
+	margin-left: -10%;
+	margin-bottom: -20%;
+	position: relative;
+	z-index: 5;
+}
+
+.foto{
+	margin-top: 30%;
+	margin-left: 42%;
+	margin-bottom: -23%;
+	position: relative;
+	z-index: 7;
+}
+.phone{
+	margin-top: -50%;
+	margin-left: 40%;
+	margin-bottom: -25%;
+	position: relative;
+	z-index: 8;
+}
+.text_block{
+	width: 49%;
+	display: inline-block;
+	background-color: #ef5350; 
+	position: relative;
+	vertical-align: top;
+	margin-top: 10%;
+}
+
+.inline_block p{
+	width: 70%;
+	margin-top: 20px;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+
+.inline_block span{
+	text-transform: uppercase;
+	font-family: 'Kurale', serif;
+}
+
+.inline_block input{
+	margin-top: 30px;
+	background: #04e4a2;
+	color: white;
+	border-radius: 8px;
+	font-size: 100%;
+	margin-left: 45%;
+	width: 80px;
+	height: 35px;
+	text-transform: uppercase;
+}
+
+.inline_block_two{
+	background-color: #ffffff;
+}
+
+.img_block_two{
+	margin-top: 10%;
+	width: 50%;
+	display: inline-block;
+	background-color: #ffffff; 
+	
+}
+.one{
+	margin-bottom: -10px;
+}
+
+.text_block_two{
+	margin-left: 5px;
+	width: 49%;
+	display: inline-block;
+	background-color: #ffffff; 
+	vertical-align: top;
+}
+
+.text_block_two h3{
+	margin-top: 15px;
+	color: #e94643;
+}
+
+/* Форма */
+
+label {
+	margin-top: 20%;
+	width: 32px; 
+	height: 26px; 
+	display: block;
+	position: relative; 
+}
+
+input[type="checkbox"] + span {
+	position: absolute; 
+	left: 0; top: 0;
+	width: 100%; height: 100%;
+	cursor: pointer; 
+}
+
+
+
+.text_block_two{
+
+}
+
+.row_one{
+	width: 80%;
+}
+
+.first{
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+
+.text_block_two input{
+	height: 30px;
+}
+
+.last{
+	margin-top: 2%;
+	margin-left: 1%;
+	display: inline-block;
+}
+
+.row_two{
+	width: 80%;
+}
+
+.address{
+	margin-top: 2%;
+	margin-left: 1%;
+	display: inline-block;
+}
+
+.design{
+	margin-top: 2%;
+	margin-left: 1%;
+	display: inline-block;
+}
+
+.row_tree textarea{
+	width: 80%;
+	margin-left: 1%;
+}
+.mess{
+	width: 80%;
+	margin-top: 2%;
+}
+
+.row_mit input{
+	width: 80%;
+	margin-top: 2%;
+}
+
+.sub{
+	width: 70px;
+	margin-left: 55%;
+}
+
+.button{
+	text-transform: uppercase;
+	background: #e94643;
+	color: white;
+	border-radius: 8px;
+	margin-bottom: 25px;
+}
+.footer{
+	background-color: #fefcf2;
+	height: 50px;
+}
+
+.footer p{
+	float: left;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+
+.footer a{
+	float: right;
+	margin-top: 15px;
+	margin-right: 370px;
+}
+
+/*Sidebar*/
+.sidebar{
+	background: gray;
+	display: inline-block;
+}
+aside {
+    background: #e94643;
+    display: inline-block;
+    margin-left: 15px;
+   }
+
+aside input{
+    width: 100%;
+    background: blue;
+	color: white;
+	border-radius: 8px;
+   }
+
+aside a{
+    margin: 10px;
+	text-decoration:underline; 
+	color: #fdd835;
+   }
+
+aside p{
+	margin: 10px;
+    color: #ffffff;
+   }
+article {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25%;
+   }
+
+.information{
+	margin-top: 15px;
+	background-color: #7d7d7c;
+}   
+
+.information div{
+	margin-top: 35px;
+} 
+
+.information p{
+	width: 30%;
+	display: inline-block;
+	margin-top: 15px;
+	vertical-align: top;
+} 
+
+.information img{
+   	width: 45%;
+   	height: 45%;
+   }
+ 
