@@ -244,7 +244,18 @@ input[type="checkbox"] + span {
 .sidebar{
 	background: gray;
 	display: inline-block;
+	font-family: 'Lobster', cursive;
 }
+
+.sidebar a{
+	text-decoration: none;
+}
+
+.sidebar a:hover{
+	text-decoration:underline; 
+	color: #fdd835;
+}
+
 aside {
     background: #e94643;
     display: inline-block;
@@ -278,6 +289,7 @@ article {
 .information{
 	margin-top: 15px;
 	background-color: #7d7d7c;
+	font-family: 'Kurale', serif;
 }   
 
 .information div{
@@ -285,6 +297,7 @@ article {
 } 
 
 .information p{
+	margin-left: 10%;
 	width: 30%;
 	display: inline-block;
 	margin-top: 15px;
